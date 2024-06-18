@@ -5,11 +5,11 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
-    "dev": "ts-node-dev --ignore-watch node_modules src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
     "test": "jest"
   },
   "keywords": [],
-  "type": "module",
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
   "description": "",
